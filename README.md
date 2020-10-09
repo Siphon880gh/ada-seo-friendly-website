@@ -6,7 +6,7 @@ View [screenreader-compatible webpage](https://siphon880gh.github.io/ucla-challe
 ## About
 This is an UCLA challenge assignment done by Weng Fei Fung. The objective was to make a website more SEO-friendly and accessible without changing the overall look and functionality of the website.
 
-![Screenshot of ARIA code alongside website](Develop/assets/images/readme/example-aria.png)
+![Screenshot of ARIA code alongside website](assets/images/readme/example-aria.png)
 
 ## Prerequisites
 
