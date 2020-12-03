@@ -28,14 +28,17 @@
 
 /* Utility classes */
 
+.float-left,
+.float-right {
+    margin-right: 25px;
+}
+
 .float-left {
     float: left;
-    margin-right: 25px;
 }
 
 .float-right {
     float: right;
-    margin-left: 25px;
 }
 
 
@@ -117,40 +120,16 @@ header nav ul li {
     margin-left: 20px;
 }
 
-.content .search-engine-optimization {
+.content img {
+    max-height: 200px;
+}
+
+.content>* {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     background-color: var(--framing-component2);
     color: var(--common-color);
-}
-
-.content .search-engine-optimization img {
-    max-height: 200px;
-}
-
-.content .online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    background-color: var(--framing-component2);
-    color: var(--common-color);
-}
-
-.content .online-reputation-management img {
-    max-height: 200px;
-}
-
-.content .social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    background-color: var(--framing-component2);
-    color: var(--common-color);
-}
-
-.content .social-media-marketing img {
-    max-height: 200px;
 }
 
 
@@ -166,38 +145,16 @@ header nav ul li {
     background-color: var(--framing-component1);
 }
 
+.benefits>* {
+    margin-bottom: 32px;
+    color: var(--common-color);
+}
+
 .benefits .subtitle {
     font-size: 28px;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: var(--common-color);
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: var(--common-color);
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: var(--common-color);
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
